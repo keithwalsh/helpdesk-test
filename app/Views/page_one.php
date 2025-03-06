@@ -19,7 +19,7 @@ A blog post
     </div>
 </div>
 
-<div class="grid gap-4 grid-col-3 grid-rows-2">
+<div class="grid gap-4 grid-cols-3 grid-rows-2">
     <div class="my-8">
         <h2 class="text-xl font-bold">Title</h2>
         <img src="https://picsum.photos/500/200" alt="An Image">
