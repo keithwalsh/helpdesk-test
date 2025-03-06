@@ -44,7 +44,8 @@ A blog post
     </div><div class="my-8">
         <h2 class="text-xl font-bold">Post Title</h2>
         <img src="https://picsum.photos/500/200" alt="An Image">
-        <p class="mb-4">Nulla condimentum dolor nunc, at condimentum mauris volutpat at. <div class="font-bold">Phasellus id ante tristique, feugiat libero eu, sodales augue.</div></p>
+        <p class="mb-4">Nulla condimentum dolor nunc, at condimentum mauris volutpat at.</p>
+        <p class="font-bold mb-4">Phasellus id ante tristique, feugiat libero eu, sodales augue.</p>
         <a href="#" class="rounded bg-orange-600 text-white p-4 mt-4">Read More</a>
     </div><div class="my-8">
         <h2 class="text-xl font-bold">Another story</h2>
