@@ -83,7 +83,7 @@ class Pages extends BaseController
             ]
         ];
 
-        return view('page_two.php', ['post' => $post]);
+        return view('page_two.php', ['posts' => $posts]);
     }
 
     public function three(): string
