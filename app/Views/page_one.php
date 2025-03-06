@@ -48,7 +48,7 @@ A blog post
         <a href="#" class="rounded bg-orange-600 text-white p-4 mt-4">Read More</a>
     </div><div class="my-8">
         <h2 class="text-xl font-bold">Another story</h2>
-        <img src="https://picsum.photos/500/200 alt="An Image">
+        <img src="https://picsum.photos/500/200" alt="An Image">
         <p class="mb-4">Nulla condimentum dolor nunc, at condimentum mauris volutpat at. Phasellus id ante tristique, feugiat libero eu, sodales augue.</p>
         <a href="#" class="rounded bg-orange-600 text-white p-4 mt-4">Read More</a>
     </div>
