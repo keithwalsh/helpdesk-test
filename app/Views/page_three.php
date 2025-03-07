@@ -48,6 +48,7 @@ function rating($film): bool
     if ($film['episode_id'] > 3) {
         return true;
     }
+    return false;
 }
 
 ?>
