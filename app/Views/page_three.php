@@ -22,14 +22,14 @@ Blog Posts
         <tbody>
         <?php
             foreach ($films['results'] as $film) {
-                
+
                 if(rating($film)){
             ?>
                 <tr>
                     <td class="border-2"> <?php echo $film['episode_id']; ?></td>
                     <td class="border-2"> <?php echo $film['title']; ?></td>
                     <td class="border-2"> <?php echo $film['opening_crawl']; ?></td>
-                    <td class="border-2"> <?php echo $film['released_at']; ?></td>
+                    <td class="border-2"> <?php echo $film['release_date']; ?></td>
                 </tr>
             <?php
                 }
