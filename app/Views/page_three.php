@@ -28,7 +28,10 @@ Blog Posts
                 <tr>
                     <td class="border-2"> <?php echo $film['episode_id']; ?></td>
                     <td class="border-2"> <?php echo $film['title']; ?></td>
-                    <td class="border-2"> <?php echo $film['opening_crawl']; ?></td>
+                    <td class="border-2"> <?php 
+                        $crawl = $film['opening_crawl'];
+                        echo (strlen($crawl) > 200) ? substr($crawl, 0, 200) . '...' : $crawl;
+                    ?></td>
                     <td class="border-2"> <?php echo $film['release_date']; ?></td>
                 </tr>
             <?php
