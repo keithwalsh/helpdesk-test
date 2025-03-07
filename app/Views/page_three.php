@@ -22,7 +22,7 @@ Blog Posts
         <tbody>
         <?php
             foreach ($films['results'] as $film) {
-                exit(var_dump($film));
+                
                 if(rating($film)){
             ?>
                 <tr>
